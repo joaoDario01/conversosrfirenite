@@ -1,9 +1,11 @@
 #leitura da escolha
 print('escolha qual o tipo de operacao quer fazer')
-print('1 - somar')
-print('2 - subtrair')
-print('3 - multiplicar')
-print('4 - dividir')
+print('''         1 - somar
+         2 - subtrair
+         3 - multiplicar
+         4 - dividir      
+''')
+
 operacao = int(input())
 #processamento da escolha
 if operacao == 1:
